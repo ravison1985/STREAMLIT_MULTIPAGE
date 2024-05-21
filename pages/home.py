@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 # Hardcoded usernames and passwords
-USER_DATA_FILE = r"C:\Users\Admin\Downloads\Marketguldasta\user_data.json"
+USER_DATA_FILE = "user_data.json"
 st.set_page_config(layout="wide")
 
 def save_user_data(user_data):
